@@ -25,13 +25,7 @@ variable "nutanix_port" {
 
 variable "calm_disk_images" {
     type = list(string)
-    description = "List of Calm disk images"
-    default = [
-       "https://glnuta.blob.core.windows.net/share/calm-vm-boot-pc.2021.7-calm-3.3.0.qcow2",    
-       "https://glnuta.blob.core.windows.net/share/calm-vm-data-pc.2021.7-calm-3.3.0.qcow2",
-       "https://glnuta.blob.core.windows.net/share/calm-vm-es-data-pc.2021.7-calm-3.3.0.qcow2",
-       "https://glnuta.blob.core.windows.net/share/calm-vm-home-pc.2021.7-calm-3.3.0.qcow2"
-    ]
+    description = "List of Calm disk images URLs"
 }
 
 variable "nutanix_network" {

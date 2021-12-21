@@ -7,6 +7,7 @@ Variables to provide :
 - nutanix_enpoint : IP od the PRISM Central
 - nutanix_password : password for the admin user
 - nutnaix_cluster : Cluster name to deploy the Calm VM
+- calm_disk_images : List of qcow2 images (in an array)
 
 Optional : 
 - nutanix_user : admin username (Default : admin)
