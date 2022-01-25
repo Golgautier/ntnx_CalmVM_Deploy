@@ -18,7 +18,7 @@ data "nutanix_cluster" "cluster" {
 
 # VM Creation
 resource "nutanix_virtual_machine" "CalmVM" {
-    name = "CalmVM"
+    name = "Calm_VM"
     cluster_uuid = data.nutanix_cluster.cluster.id
 
     num_vcpus_per_socket = 1

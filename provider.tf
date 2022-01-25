@@ -4,7 +4,7 @@ provider "nutanix" {
   endpoint     = var.nutanix_endpoint
   port         = var.nutanix_port
   insecure     = true
-  wait_timeout = 10
+  wait_timeout = 20
 }
 
 terraform {
